@@ -1,0 +1,51 @@
+Wednesday 10th March 1999
+© Joona Palaste
+
+
+            Magic Miner beta-test version instructions
+            ==========================================
+
+
+This is a beta-test version of the game Magic Miner. This program will let you
+play any level created with the level editor program "MMEditorﬂ". Here's how to
+use your levels:
+1) Design your levels with the editor and save them to disk.
+2) Use the supplied program LevelMaker by typing "LevelMaker <file>" where
+<file> is the name of your saved levelset. This will create a number of files
+called Level_  0, Level_  1 and so on.
+3) Load one of these files into the Magic Miner beta-test program and play it.
+
+This program is intended for test use only. For this reason, it lacks a number
+of features that will be present in the finished game. The main bit is that you
+can only load one level at a time, and play it. You can't load a sequence of
+levels and proceed to the next one by completing the previous one. Also, the
+enemy isn't yet present, and doesn't do anything. No score is kept and no time
+limit is enforced. The animation for the player character is just one block at
+a time. The finished version will have smoother animation.
+
+To play, you need a joystick. Use it to control your character. The functions of
+most blocks is straightforward, but some need explanation.
+  To push a brown "box", just move against it. "Boxes" will only move through
+empty space. Gridwork can be used like two-dimensional ladder, but remember that
+you can only get on or off it through loose ends (with red and blue markings).
+Special blocks like switches and so on do not function just by standing next to
+them. You have to specificly move against them. This means that if you fall on a
+switch, you will not necessarily activate it.
+  "Radio boxes" (with a blue cross) can be controlled with the controller
+switch. Stand in the switch, depress Fire and move your joystick. Your character
+will not move, but instead the selected "radio box" (outlined in grey) will
+move. To switch selected "radio boxes", use the selector switch (with a small
+brown "box" in it). This will automatically switch to the next "radio box".
+  There are four types of teleports, divided into two colour categories: light
+and dark. Light teleports require you to press Fire to activate them. Dark ones
+function every time you move into them. Teleports with no markings move you to a
+random location. Teleports with a small dot move you to the position you chose
+for them in the editor. Teleports with a circle move you to the next circle
+teleport in the level. Teleports with a big dot move you to wherever the
+"crosshair" is on the level. To move the "crosshair", stand in the controller
+(looks like a blue circle surrounded with grey lines), depress Fire and move
+your joystick.
+
+Menu items: "Load" loads and starts a new level. No contest checking will be
+done, so use with care! "About" doesn't do anything in this version. "Quit"
+quits the program.
